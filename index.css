@@ -1,0 +1,39 @@
+* {
+  box-sixing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 34px;
+  text-align: center;
+  font-family: roboto;
+  color: #f8fafc;
+  font-weight: 700;
+}
+media screen and (min-width:768px;) {
+  .heading {
+    font-size: 64px;
+  }
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+@media (min-width: 768px;) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+}
